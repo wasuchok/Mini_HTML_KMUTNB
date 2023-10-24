@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Index</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+  <link rel="stylesheet" href="./styles/rippleui.css">
+
+  <style type="text/tailwindcss">
+    @import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+  </style>
+  <script>
+    tailwind.config = {
+      theme: {
+        fontFamily: {
+      'sans': ['kanit'],
+        },
+        extend: {}
+      }
+    }
+  </script>
+
+
+
+</head>
+<body>
+
+  <div id="Navbar"></div>
+
+  <div class="pt-24 mx-auto">
+  <main class="container mx-auto p-4 grid grid-cols-1 xl:grid-cols-2">
+    <article class="bg-white p-6 rounded-lg shadow-lg mx-5" data-aos="fade-up">
+        <h2 class="text-2xl font-semibold text-indigo-700 mb-4">Arduino คืออะไร?</h2>
+        <p class="text-gray-600 mb-4">เผยแพร่เมื่อวันที่ 16 ตุลาคม 2023</p>
+        <img src="./img/c1.jpg" class="w-full h-auto mb-4 rounded-lg mx-auto" data-aos="fade-right">
+        <div class="prose" data-aos="fade-left">
+            <p class="text-gray-800 text-lg">บอร์ด Arduino เป็นไมโครคอนโทรลเลอร์ ซึ่งผู้ใช้งานสามารถควบคุมบอร์ดว่าต้องทำอะไร
+                โดยส่งชุดคำสั่งไปยังไมโครคอนโทรลเลอร์บนบอร์ด
+                Arduino ซึ่งมีคำสั่งเพิ่มขึ้นมาเพื่อเขียนในรูปแบบภาษา C++
+            </p>
+        </div>
+    </article>
+
+    <article class="bg-white p-6 rounded-lg shadow-lg mx-5" data-aos="fade-up">
+        <h2 class="text-2xl font-semibold text-indigo-700 mb-4">จุดเด่นของ Arduino</h2>
+        <p class="text-gray-600 mb-4">เผยแพร่เมื่อวันที่ 19 ตุลาคม 2023</p>
+        <img src="./img/c4.jpg" class="w-full h-auto mb-4 rounded-lg mx-auto" data-aos="fade-right">
+        <div class="prose" data-aos="fade-left">
+            <p class="text-gray-800 text-lg">
+                ความง่ายใการต่อกับอุปกรณ์เสริมต่าง ๆ
+                ที่ผู้ใช้อย่างเราสามารถต่อวงจร Electronic
+                ได้อย่างง่ายดาย เพราะเขาทำตัว I/O
+                ของบอร์ดมาให้เรียบร้อยแล้วนั่นเอง
+            </p>
+        </div>
+    </article>
+</main>
+
+
+
+<section class="">
+  <div class="container mx-auto py-8">
+      <h1 class="text-3xl font-semibold mb-4" data-aos="fade-up">สินค้าแนะนำ</h1>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
+      
+      <div class="bg-white rounded-lg shadow-md p-2 transition-transform transform hover:scale-105 hover:shadow-lg hover:border-4 border-blue-500" data-aos="fade-up">
+              <img src="./products_image/97369951220220823_064537.png" class="w-full h-auto object-cover rounded-md">
+              <h2 class="text-lg font-semibold mt-2" data-aos="fade-up">Arduino UNO R3</h2>
+              <p class="text-gray-600 text-sm" data-aos="fade-up">บอร์ดที่ดีที่สุด สำหรับมือใหม่</p>
+              <div class="mt-2" data-aos="fade-up">
+                  <span class="text-gray-800 font-semibold text-sm" data-aos="fade-up">ราคา 160 บาท</span>
+                  <button class="bg-blue-500 text-white px-2 py-1 rounded-md float-right hover.bg-blue-600 text-sm" 
+                  data-aos="fade-up"
+                  ><a href="./details/arduino_uno_r3.html">ดูรายละเอียด</button></a>
+                  
+              </div>
+          </div>
+      
+          <div class="bg-white rounded-lg shadow-md p-2 transition-transform transform hover:scale-105 hover:shadow-lg hover:border-4 border-blue-500" data-aos="fade-up">
+              <img src="./products_image/150552972020220823_065840.png" class="w-full h-auto object-cover rounded-md">
+              <h2 class="text-lg font-semibold mt-2" data-aos="fade-up">Relay 5v</h2>
+              <p class="text-gray-600 text-sm" data-aos="fade-up">Relay เพื่อชีวิต</p>
+              <div class="mt-2" data-aos="fade-up">
+                  <span class="text-gray-800 font-semibold text-sm" data-aos="fade-up">ราคา 59 บาท</span>
+                  <button class="bg-blue-500 text-white px-2 py-1 rounded-md float-right hover.bg-blue-600 text-sm" data-aos="fade-up">
+                    <a href="./details/relay_5.html">ดูรายละเอียด</a>
+                  </button>
+              </div>
+          </div>
+          <div class="bg-white rounded-lg shadow-md p-2 transition-transform transform hover:scale-105 hover:shadow-lg hover:border-4 border-blue-500" data-aos="fade-up">
+              <img src="./products_image/112247953920220823_065853.png" class="w-full h-auto object-cover rounded-md">
+              <h2 class="text-lg font-semibold mt-2" data-aos="fade-up">โครงรถ</h2>
+              <p class="text-gray-600 text-sm" data-aos="fade-up">โครงรถ</p>
+              <div class="mt-2" data-aos="fade-up">
+                  <span class="text-gray-800 font-semibold text-sm" data-aos="fade-up">ราคา 160 บาท</span>
+                  <button class="bg-blue-500 text-white px-2 py-1 rounded-md float-right hover.bg-blue-600 text-sm" data-aos="fade-up">
+                   <a href="./details/car_smart.html">ดูรายละเอียด</a> 
+                  </button>
+              </div>
+          </div>
+          <div class="bg-white rounded-lg shadow-md p-2 transition-transform transform hover:scale-105 hover:shadow-lg hover:border-4 border-blue-500" data-aos="fade-up">
+              <img src="./products_image/94387306520220823_070816.png" class="w-full h-auto object-cover rounded-md">
+              <h2 class="text-lg font-semibold mt-2" data-aos="fade-up">LED</h2>
+              <p class="text-gray-600 text-sm" data-aos="fade-up">LED แสงสุดท้าย</p>
+              <div class="mt-2" data-aos="fade-up">
+                  <span class="text-gray-800 font-semibold text-sm" data-aos="fade-up">ราคา 30 บาท</span>
+                  <button class="bg-blue-500 text-white px-2 py-1 rounded-md float-right hover.bg-blue-600 text-sm" data-aos="fade-up">
+                   <a href="./details/segment_digi.html"> ดูรายละเอียด </a>
+                  </button>
+              </div>
+          </div>
+          <div class="bg-white rounded-lg shadow-md p-2 transition-transform transform hover:scale-105 hover:shadow-lg hover:border-4 border-blue-500" data-aos="fade-up">
+              <img src="./products_image/188711060720220823_070855.png" class="w-full h-auto object-cover rounded-md">
+              <h2 class="text-lg font-semibold mt-2" data-aos="fade-up">Motor</h2>
+              <p class="text-gray-600 text-sm" data-aos="fade-up">ตัวขับมอเตอร์ สองใจ</p>
+              <div class="mt-2" data-aos="fade-up">
+                  <span class="text-gray-800 font-semibold text-sm" data-aos="fade-up">ราคา 40 บาท</span>
+                  <button class="bg-blue-500 text-white px-2 py-1 rounded-md float-right hover.bg-blue-600 text-sm" data-aos="fade-up">
+                    <a href="./details/motor.html">ดูรายละเอียด</a>
+                  </button>
+              </div>
+          </div>
+          
+      </div>
+  </div>
+</section>
+
+</div>
+  
+
+  <div id="Footer"></div>
+</body>
+</html>
+
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+<script>
+  AOS.init();
+</script>
+
+<script>
+  fetch('./components/navbar.html')
+    .then(response => response.text())
+    .then(html => {
+      document.getElementById('Navbar').innerHTML = html;
+    });
+
+  fetch('./components/footer.html')
+    .then(response => response.text())
+    .then(html => {
+      document.getElementById('Footer').innerHTML = html;
+    });
+</script>
