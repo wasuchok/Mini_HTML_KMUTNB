@@ -219,16 +219,3 @@
   AOS.init();
 </script>
 
-<script>
-  fetch('./components/navbar.html')
-    .then(response => response.text())
-    .then(html => {
-      document.getElementById('Navbar').innerHTML = html;
-    });
-
-  fetch('./components/footer.html')
-    .then(response => response.text())
-    .then(html => {
-      document.getElementById('Footer').innerHTML = html;
-    });
-</script>
