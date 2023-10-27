@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Index</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+  <link rel="stylesheet" href="./styles/rippleui.css">
+
+  <style type="text/tailwindcss">
+    @import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+  </style>
+  <script>
+    tailwind.config = {
+      theme: {
+        fontFamily: {
+      'sans': ['kanit'],
+        },
+        extend: {}
+      }
+    }
+  </script>
+
+
+
+</head>
+<body>
+
+  <nav class="bg-blue-900 fixed w-full z-10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+            <div class="flex items-center">
+                <div class="flex-shrink-0">
+                    <img class="h-8 w-8" src="https://cdn.dribbble.com/userupload/3158902/file/original-7c71bfa677e61dea61bc2acd59158d32.jpg?resize=400x300" alt="Logo">
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+                        <a href="../index.html" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">หน้าแรก</a>
+                        <a href="../all_products.html" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">สินค้าทั้งหมด</a>
+                        <a href="../best_sell.html" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">สินค้าขายดี</a>
+                        <a href="../about.html" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">เกี่ยวกับ</a>
+                    </div>
+                </div>
+            </div>
+            <div class="hidden md:block">
+                <div class="ml-4 flex items-center md:ml-6">
+                    <div class="relative">
+                        <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+                            <svg aria-hidden="true" class="w-5 h-5 text-gray-500 dark:text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                            </svg>
+                        </div>
+                        <input type="search" id="default-search" class="block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search...">
+                    </div>
+                </div>
+            </div>
+            <div class="-mr-2 flex md:hidden">
+                <button type="button" class="bg-gray-800 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="block h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                    <svg class="hidden h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="md:hidden" id="mobile-menu">
+        <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+            <a href="/" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">หน้าแรก</a>
+            <a href="/cart" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">สินค้าทั้งหมด</a>
+        </div>
+    </div>
+</nav>
+
+
+
+  
+<div class="pt-24 mx-auto">
+    <div class="container mx-auto mt-8 p-4 bg-white shadow-md rounded-lg">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+            <div>
+                <img src="../products_image/bdc96f90f3507b30c2ca7562205f541d.png" alt="Product Image" class="w-full rounded-lg shadow-md">
+            </div>
+
+            <div>
+                <h1 class="text-3xl font-semibold mb-2">LCD 16×2 I2C with Blacklight</h1>
+                <p class="text-gray-600 text-lg mt-5">
+                    LCD 16×2 I2C with Blacklight จอ แสดงผล ตัวอักษร แอลซีดี ขนาด 16×2 พร้อม ไฟเรืองแสง
+                </p>
+                <p class="text-2xl text-blue-500 font-semibold my-4">ราคา 95 บาท</p>
+                <button class="bg-green-500 text-white px-4 py-2 rounded-md hover:bg-green-600">Buy</button>
+                <button class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600">Like</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mx-auto mt-8 p-4 bg-white shadow-md rounded-lg">
+        <h2 class="text-2xl font-semibold mb-4">คุณสมบัติของสินค้า</h2>
+        <img src="../img/45e723e7dcd8e5d2caf0e189ee235b6b.png" class="w-1/2 mx-auto">
+        <ul class="list-disc list-inside">
+            <li>แรงดันไฟฟ้าที่ใช้งานคือ 4.7V ถึง 5.3V</li>
+            <li>การบริโภคปัจจุบันคือ 1mA โดยไม่มีแสงไฟ</li>
+            <li>โมดูลจอแสดงผล LCD ตัวอักษรและตัวเลข</li>
+            <li>ประกอบด้วยสองแถวและแต่ละแถวสามารถพิมพ์ได้ 16 ตัวอักษร</li>
+            <li>ตัวละครแต่ละตัวสร้างด้วยกล่องพิกเซลขนาด 5 × 8</li>
+            <li>สามารถทำงานได้ทั้งในโหมด 8 บิตและ 4 บิต</li>
+            <li>นอกจากนี้ยังสามารถแสดงอักขระที่สร้างขึ้นเอง</li>
+            <li>มีให้เลือกทั้งแสงพื้นหลังสีเขียวและสีน้ำเงิน</li>
+            <li>หนัก : 5 กรัม</li>
+            <li>ขนาด : 5.5×2.3×1.4 ซม.</li>
+        </ul>
+    </div>
+
+    
+    <div class="container mx-auto mt-8 p-4 bg-white shadow-md rounded-lg">
+        <h2 class="text-2xl font-semibold mb-4">สินค้าที่เกี่ยวข้อง</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            
+        <div class="bg-white rounded-lg shadow-md p-2 transition-transform transform hover:scale-105 hover:shadow-lg hover:border-4 border-blue-500" data-aos="fade-up">
+                <img src="../products_image/150552972020220823_065840.png" class="w-full h-auto object-cover rounded-md">
+                <h2 class="text-lg font-semibold mt-2" data-aos="fade-up">Relay 24 v</h2>
+                <p class="text-gray-600 text-sm" data-aos="fade-up">Relay เพื่อชีวิต</p>
+                <div class="mt-2" data-aos="fade-up">
+                    <span class="text-gray-800 font-semibold text-sm" data-aos="fade-up">ราคา 59 บาท</span>
+                    <button class="bg-blue-500 text-white px-2 py-1 rounded-md float-right hover.bg-blue-600 text-sm" data-aos="fade-up">ดูรายละเอียด</button>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-md p-2 transition-transform transform hover:scale-105 hover:shadow-lg hover:border-4 border-blue-500" data-aos="fade-up">
+                <img src="../products_image/112247953920220823_065853.png" class="w-full h-auto object-cover rounded-md">
+                <h2 class="text-lg font-semibold mt-2" data-aos="fade-up">Buzzer</h2>
+                <p class="text-gray-600 text-sm" data-aos="fade-up">Active Buzzer คือโมดูลเสียงเตือน</p>
+                <div class="mt-2" data-aos="fade-up">
+                    <span class="text-gray-800 font-semibold text-sm" data-aos="fade-up">ราคา 160 บาท</span>
+                    <button class="bg-blue-500 text-white px-2 py-1 rounded-md float-right hover.bg-blue-600 text-sm" data-aos="fade-up">ดูรายละเอียด</button>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-md p-2 transition-transform transform hover:scale-105 hover:shadow-lg hover:border-4 border-blue-500" data-aos="fade-up">
+                <img src="../products_image/94387306520220823_070816.png" class="w-full h-auto object-cover rounded-md">
+                <h2 class="text-lg font-semibold mt-2" data-aos="fade-up">LED</h2>
+                <p class="text-gray-600 text-sm" data-aos="fade-up">LED แสงสุดท้าย</p>
+                <div class="mt-2" data-aos="fade-up">
+                    <span class="text-gray-800 font-semibold text-sm" data-aos="fade-up">ราคา 30 บาท</span>
+                    <button class="bg-blue-500 text-white px-2 py-1 rounded-md float-right hover.bg-blue-600 text-sm" data-aos="fade-up">ดูรายละเอียด</button>
+                </div>
+            </div>
+
+            
+        </div>
+    </div>
+</div>
+  
+
+<footer class="flex flex-col space-y-10 justify-center m-10">
+
+  <nav class="flex justify-center flex-wrap gap-6 text-gray-500 font-medium">
+      <a class="hover:text-gray-900" href="#">Home</a>
+      <a class="hover:text-gray-900" href="#">About</a>
+      <a class="hover:text-gray-900" href="#">Services</a>
+      <a class="hover:text-gray-900" href="#">Media</a>
+      <a class="hover:text-gray-900" href="#">Gallery</a>
+      <a class="hover:text-gray-900" href="#">Contact</a>
+  </nav>
+
+  <div class="flex justify-center space-x-5">
+      <a href="#" target="_blank" rel="noopener noreferrer">
+          <img src="https://img.icons8.com/fluent/30/000000/facebook-new.png" />
+      </a>
+      <a href="#" target="_blank" rel="noopener noreferrer">
+          <img src="https://img.icons8.com/fluent/30/000000/linkedin-2.png" />
+      </a>
+      <a href="#" target="_blank" rel="noopener noreferrer">
+          <img src="https://img.icons8.com/fluent/30/000000/instagram-new.png" />
+      </a>
+      <a href="#" target="_blank" rel="noopener noreferrer">
+          <img src="https://img.icons8.com/fluent/30/000000/facebook-messenger--v2.png" />
+      </a>
+      <a href="#" target="_blank" rel="noopener noreferrer">
+          <img src="https://img.icons8.com/fluent/30/000000/twitter.png" />
+      </a>
+  </div>
+  <p class="text-center text-gray-700 font-medium">&copy; 2023</p>
+</footer>
+</body>
+</html>
+
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+<script>
+  AOS.init();
+</script>
+
+
